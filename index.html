@@ -8,9 +8,10 @@
     <title></title>
   </head>
   <body>
+    <h1>Count Up!</h1>
     <form id="countUpBy">
        <div class="form-group">
-         <p>Enter a number and a multiple, and we will count up to your first number by that multiple.</p>
+         <p class="lead">Enter a number and a multiple, and we will count up to your first number by that multiple.</p>
          <label for="total">Total number:</label>
          <input id="total" type="number">
          <label for="multiple">Multiple:</label>
@@ -19,6 +20,9 @@
 
        <button type="submit" class="btn">Count!</button>
      </form>
+     <div class="result">
+       <ul id="result"></ul>
+     </div>
 
   </body>
 </html>
